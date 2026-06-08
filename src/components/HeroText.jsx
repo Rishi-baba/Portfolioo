@@ -36,15 +36,18 @@ const HeroText = ({ scrollProgress = 0 }) => {
          
       </p>
       
-      <div className="relative inline-block px-[30px] py-[15px] pointer-events-auto">
+      <a 
+        href="mailto:rishibankar16@gmail.com" 
+        className="relative inline-block px-[30px] py-[15px] pointer-events-auto no-underline text-white"
+      >
         <div className={`${crosshairClass} top-0 left-0`}>+</div>
         <div className={`${crosshairClass} top-0 left-full`}>+</div>
         <div className={`${crosshairClass} top-full left-0`}>+</div>
         <div className={`${crosshairClass} top-full left-full`}>+</div>
-        <button className="bg-transparent border-none text-white text-[0.75rem] font-bold tracking-[2px] cursor-pointer font-mono">
+        <span className="bg-transparent border-none text-[0.75rem] font-bold tracking-[2px] cursor-pointer font-mono">
           WRITE TO MAIL
-        </button>
-      </div>
+        </span>
+      </a>
     </div>
   );
 };

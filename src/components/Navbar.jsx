@@ -26,9 +26,28 @@ const Navbar = () => {
       </div>
       <nav className="flex gap-[40px] font-bold text-[0.75rem] tracking-[1.5px] pointer-events-auto">
         <span className={linkClass}>CV</span>
-        <span className={linkClass}>GITHUB</span>
-        <span className={linkClass}>LINKEDIN</span>
-        <span className={linkClass}>MAIL</span>
+        <a 
+          href="https://github.com/Rishi-baba" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={`${linkClass} text-white no-underline`}
+        >
+          GITHUB
+        </a>
+        <a 
+          href="https://www.linkedin.com/in/rishi-bankar-b7279a323" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={`${linkClass} text-white no-underline`}
+        >
+          LINKEDIN
+        </a>
+        <a 
+          href="mailto:rishibankar16@gmail.com" 
+          className={`${linkClass} text-white no-underline`}
+        >
+          MAIL
+        </a>
       </nav>
     </header>
   );

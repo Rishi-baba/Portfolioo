@@ -2,10 +2,16 @@ const Projects = () => {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center px-[40px] text-center select-none bg-transparent">
       <div className="max-w-[950px] flex flex-col items-center gap-[25px]">
-        {/* Top Line with Links */}
         <div className="text-[11px] font-mono tracking-[3px] text-white/50 uppercase">
           PROJECTS THAT DEFINE MY JOURNEY{" "}
-          <span className="text-[#0088ff] font-bold ml-[10px] cursor-pointer hover:opacity-80 transition-opacity">GITHUB</span>{" "}
+          <a 
+            href="https://github.com/Rishi-baba" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-[#0088ff] font-bold ml-[10px] cursor-pointer hover:opacity-80 transition-opacity no-underline"
+          >
+            GITHUB
+          </a>{" "}
           <span className="text-[#ea4c89] font-bold ml-[10px] cursor-pointer hover:opacity-80 transition-opacity font-serif italic lowercase tracking-[0.5px]">lab</span>
         </div>
 
