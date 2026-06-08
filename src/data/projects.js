@@ -13,8 +13,8 @@ export const projectsData = [
     pageIndex: 3,
     align: "left",
     category: "AI / WEB APP / AUTOMATION",
-    title: "PURPLE BLOCK",
-    description: "An intelligent AI platform for growth and scale, compiling data, driving marketing workflows, and optimizing business operations.",
+    title: "PURPLE BLOCK REDESIGN",
+    description: "An independent redesign of Purple Block's website focused on improving user experience, visual communication, and conversion-driven design. Built with React, Tailwind CSS, and GSAP to showcase modern frontend development and product thinking.",
     image: img1,
     link: "https://purple-block.vercel.app/"
   },
@@ -40,7 +40,7 @@ export const projectsData = [
     pageIndex: 6,
     align: "right",
     category: "PUBLIC SERVICE / LEGAL AID",
-    title: "PARICHAY GUIDANCE",
+    title: "PARICHAY",
     description: "A public guidance portal simplifying legal issues into plain language, offering secure anonymous legal assistance and document mapping across India.",
     image: img4,
     link: "https://parichay-delta.vercel.app/"
@@ -52,25 +52,33 @@ export const projectsData = [
     title: "PARICHAY CONSOLE",
     description: "An administrative hub managing users, cases, evidence logs, lawyers, and NGOs inside the Parichay legal aid and forensic ecosystem.",
     image: img5,
-    link: "https://parichay-admin-tau.vercel.app/"
+    link: "https://parichay-admin-tau.vercel.app/",
+    credentials: {
+      email: "admin@gmail.com",
+      password: "admin123"
+    }
   },
   {
     pageIndex: 8,
     align: "right",
-    category: "HEALTH TECH / WEB WORKSPACE / REACT",
-    title: "VEDYA HUB",
-    description: "A modern, intuitive medical consulting and patient management dashboard built with React and Tailwind CSS, focusing on client workspace efficiency.",
+    category: "FASHION / E-COMMERCE / REACT",
+    title: "FOREVER STORE",
+    description: "A premium online fashion storefront built with React and Tailwind CSS, featuring interactive lookbooks, dynamic product filters, and seamless cart layouts.",
     image: img6,
     link: "https://vedya-frontend-2.vercel.app/"
   },
   {
     pageIndex: 9,
     align: "left",
-    category: "WELLNESS / METRIC TRACKER / ADD PORTAL",
-    title: "VEDYA INSIGHTS",
-    description: "A user-focused wellness portal and data logging form designed to capture mental health markers, track daily habits, and visualize growth analytics.",
+    category: "FASHION / CATALOG MANAGER / ADMIN",
+    title: "FOREVER MERCHANT",
+    description: "An intuitive registry and management console for adding inventory items, specifying collection categories, and updating sizing options.",
     image: img7,
-    link: "https://vedya-kmgy.vercel.app/add"
+    link: "https://vedya-kmgy.vercel.app/add",
+    credentials: {
+      email: "ishwa@gmail.com",
+      password: "ishwa"
+    }
   },
   {
     pageIndex: 10,

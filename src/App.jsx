@@ -113,6 +113,7 @@ function App() {
           description={project.description}
           image={project.image}
           link={project.link}
+          credentials={project.credentials}
         />
       ))}
     </div>

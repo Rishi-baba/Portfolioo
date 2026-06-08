@@ -8,7 +8,8 @@ const ProjectSection = ({
   title, 
   description, 
   image,
-  link
+  link,
+  credentials
 }) => {
   const [viewportHeight, setViewportHeight] = useState(window.innerHeight);
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
@@ -99,7 +100,18 @@ const ProjectSection = ({
             {description}
           </p>
 
-          {/* View Case study button with crosshair border frame */}
+          {/* Credentials Info Block */}
+          {credentials && (
+            <div className="mb-[25px] p-[12px] bg-white/[0.03] border border-white/10 rounded-[4px] font-mono text-[10px] text-white/70 max-w-[380px] w-full box-border select-all">
+              <div className="text-[8px] font-bold tracking-[1.5px] text-white/40 uppercase mb-[6px]">DEMO ACCESS</div>
+              <div className="flex flex-col gap-[3px]">
+                <div><span className="text-white/40">EMAIL:</span> {credentials.email}</div>
+                <div><span className="text-white/40">PASSWORD:</span> {credentials.password}</div>
+              </div>
+            </div>
+          )}
+
+          {/* Visit Website button with crosshair border frame */}
           <a 
             href={link} 
             target="_blank" 
@@ -116,7 +128,7 @@ const ProjectSection = ({
             <div className="absolute text-white/30 text-[10px] leading-none -translate-x-1/2 -translate-y-1/2 top-full left-full transition-all duration-300 group-hover/btn:text-white">+</div>
             
             <span className="bg-transparent border-none text-white text-[0.62rem] md:text-[0.68rem] font-bold tracking-[3px] font-mono select-none uppercase hover:opacity-75 transition-opacity">
-              VIEW CASE
+              VISIT WEBSITE
             </span>
           </a>
         </div>
@@ -134,7 +146,7 @@ const ProjectSection = ({
         >
           {/* Small white square in the top-left corner */}
           <div className="absolute top-0 left-0 w-[3px] h-[3px] bg-white"></div>
-          VIEW CASE
+          VISIT WEBSITE
         </div>
       )}
     </div>
