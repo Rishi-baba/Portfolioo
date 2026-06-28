@@ -10,6 +10,7 @@ import Specialty from './components/Specialty';
 import Projects from './components/Projects';
 import ProjectSection from './components/ProjectSection';
 import Watermark from './components/Watermark';
+import TechnicalSkills from './components/TechnicalSkills';
 import { projectsData } from './data/projects';
 
 function App() {
@@ -18,10 +19,12 @@ function App() {
   const scrollContainerRef = useRef(null);
 
   const handleScroll = (e) => {
+    // console.log('Scroll event:', e.target.scrollTop);
     const target = e.target;
     const currentScrollTop = target.scrollTop;
     const maxScroll = target.scrollHeight - target.clientHeight;
     const progress = maxScroll > 0 ? currentScrollTop / maxScroll : 0;
+    // console.log('Calculated scroll progress:', progress);
     setScrollProgress(progress);
     setScrollTop(currentScrollTop);
   };
@@ -116,6 +119,11 @@ function App() {
           credentials={project.credentials}
         />
       ))}
+
+      {/* Final Viewport Snap: Technical Skills */}
+      <div className="w-full h-screen snap-start shrink-0 z-20 relative flex items-center justify-center pointer-events-auto bg-transparent">
+        <TechnicalSkills />
+      </div>
     </div>
   );
 }

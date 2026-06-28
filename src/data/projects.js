@@ -7,6 +7,7 @@ import img6 from '../assets/6.png';
 import img7 from '../assets/7.png';
 import img8 from '../assets/8.png';
 import img9 from '../assets/9.png';
+import img10 from '../assets/10.png';
 
 export const projectsData = [
   {
@@ -83,6 +84,15 @@ export const projectsData = [
   {
     pageIndex: 10,
     align: "right",
+    category: "GAMING / METAGAME / ANIMATION",
+    title: "ZENTRY CLONE",
+    description: "An interactive web experience redefining gaming with advanced animations, custom UI elements, and a visually stunning metagame presentation layer.",
+    image: img10,
+    link: "https://zentry-virid-seven.vercel.app/"
+  },
+  {
+    pageIndex: 11,
+    align: "left",
     category: "AESTHETIC DEVELOPMENT / GSAP / WEB DESIGN",
     title: "OBYS AGENCY CLONE",
     description: "A pixel-perfect recreation of the award-winning Obys Agency website, utilizing advanced GSAP animations, custom cursors, and magnetic layouts.",
@@ -90,8 +100,8 @@ export const projectsData = [
     link: "https://rishi-baba.github.io/obys-agency/"
   },
   {
-    pageIndex: 11,
-    align: "left",
+    pageIndex: 12,
+    align: "right",
     category: "INTERACTIVE UI / THREE.JS / TAILWIND",
     title: "APPLE PRO CLONE",
     description: "An immersive product presentation showcase cloning the Apple iPhone Pro experience, integrating 3D model loaders, layout transitions, and fluid physics.",

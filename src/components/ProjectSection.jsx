@@ -41,14 +41,9 @@ const ProjectSection = ({
 
   const crosshairClass = "absolute text-white/30 text-[12px] leading-none -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none z-[4]";
 
-  const isLastPage = pageIndex === 11;
-  const translateClass = isLastPage 
-    ? 'translate-y-[-80px] md:-translate-y-[195px]' 
-    : 'translate-y-[-30px] md:-translate-y-[60px]';
-
   return (
     <div className="w-full h-screen snap-start shrink-0 relative flex items-center justify-center pointer-events-auto bg-transparent">
-      <div className={`max-w-[1150px] w-full flex flex-col md:flex-row items-center justify-between gap-[30px] md:gap-[45px] px-[40px] ${translateClass} ${align === 'right' ? 'md:flex-row-reverse' : ''}`}>
+      <div className={`max-w-[1150px] w-full flex flex-col md:flex-row items-center justify-between gap-[30px] md:gap-[45px] px-[40px] ${align === 'right' ? 'md:flex-row-reverse' : ''}`}>
         
         {/* Visual UI Screenshot Card with Corner Crosshairs (Anchor link for redirect) */}
         <a 

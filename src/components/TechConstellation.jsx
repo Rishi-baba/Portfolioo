@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import TechOrb from './TechOrb';
 import HeroText from './HeroText';
-import { SiExpress, SiGreensock, SiRedis } from 'react-icons/si';
+import { SiExpress, SiGreensock, SiThreedotjs } from 'react-icons/si';
 import { 
   TbBrandReact, 
   TbBrandTypescript, 
@@ -15,7 +15,7 @@ const techData = [
   { name: 'Node.js', icon: TbBrandNodejs },
   { name: 'Express', icon: SiExpress },
   { name: 'MongoDB', icon: TbBrandMongodb },
-  { name: 'Redis', icon: SiRedis },
+  { name: 'Three.js', icon: SiThreedotjs },
   { name: 'GSAP', icon: SiGreensock }
 ];
 
@@ -31,6 +31,7 @@ const TechConstellation = ({ scrollProgress = 0 }) => {
     let animationFrameId;
     const speed = 0.015; // Speed in degrees per millisecond (approx 5.4 degrees per second)
     let lastTime = performance.now();
+    // console.log(lastTime);
 
     const animate = (time) => {
       const delta = time - lastTime;

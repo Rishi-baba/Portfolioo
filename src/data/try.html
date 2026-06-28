@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Demo</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-snap-type: y mandatory;
+      }
+
+      .section {
+        height: 100vh;
+        width: 100%;
+        scroll-snap-align: end;
+      }
+
+      .section {
+        height: 100vh;
+        width: 100%;
+      }
+
+      .dark {
+        background-color: #92400e;
+      }
+
+      .light {
+        background-color: #fcd34d;
+      }
+      .parent{
+        height: 100%;
+        background-color: black;
+      }
+      .dad{
+        height: 100vh;
+      }
+      .mom{
+        height: 100vh;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mom">
+      nooooo
+    </div>
+    <!-- <div class="parent"> -->
+      <div class="section dark"></div>
+      <div class="section light"></div>
+      <div class="section dark"></div>
+      <div class="section light"></div>
+      <div class="section dark"></div>
+      <div class="section light"></div>
+      <div class="section dark"></div>
+      <div class="section light"></div>
+      <div class="section dark"></div>
+      <div class="section light"></div>
+    <!-- </div> -->
+    <div class="dad">
+      fuck off
+    </div>
+  </body>
+</html>
