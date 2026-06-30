@@ -25,7 +25,14 @@ const Navbar = () => {
         </div>
       </div>
       <nav className="flex gap-[40px] font-bold text-[0.75rem] tracking-[1.5px] pointer-events-auto">
-        <span className={linkClass}>CV</span>
+        <a 
+          href="https://drive.google.com/file/d/1FO6OrZC_889g6daKZpaKZ8yaEawMK_F4/view" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={`${linkClass} text-white no-underline`}
+        >
+          CV
+        </a>
         <a 
           href="https://github.com/Rishi-baba" 
           target="_blank" 
