@@ -42,7 +42,7 @@ export const projectsData = [
     pageIndex: 6,
     align: "right",
     category: "E-COMMERCE / HEADLESS / BRAND EXPERIENCE",
-    title: "BOHO VANA",
+    title: "BOHO VANA (DEMO)",
     description: "A premium, headless e-commerce experience built for a sustainable linen fashion brand. It features immersive video hero sections, real-time inventory synchronization, and a bespoke slide-out cart drawer, entirely powered by a custom frontend.\n\nBuilt with: React, Vite, Tailwind CSS, Framer Motion, Vercel, and Shopify Storefront GraphQL API.",
     image: img11,
     link: "https://bono-vana-demo.vercel.app/"
