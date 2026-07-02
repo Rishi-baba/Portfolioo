@@ -104,7 +104,7 @@ function App() {
         <Projects />
       </div>
 
-      {/* Pages 4-12 Viewport Snap Project Showcases */}
+      {/* Pages 4-14 Viewport Snap Project Showcases */}
       {projectsData.map((project) => (
         <ProjectSection 
           key={project.pageIndex}

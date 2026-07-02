@@ -37,7 +37,7 @@ const Footer = ({ scrollProgress = 0, scrollTop = 0 }) => {
       >
         <div className={`${boxBaseClass} w-[120px] pl-[20px]`}>
           <span className={titleClass}>PROJECTS</span>
-          <span className={valueClass}>12</span>
+          <span className={valueClass}>11</span>
         </div>
         <div className={`${boxBaseClass} w-[140px] pl-[20px]`}>
           <span className={titleClass}>HACKATHONS</span>

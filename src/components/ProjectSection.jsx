@@ -91,7 +91,7 @@ const ProjectSection = ({
           </h3>
           
           {/* Description */}
-          <p className="text-[0.74rem] md:text-[0.78rem] text-white/55 leading-[1.7] font-sans m-0 mb-[25px] max-w-[380px]">
+          <p className="text-[0.74rem] md:text-[0.78rem] text-white/55 leading-[1.7] font-sans m-0 mb-[25px] max-w-[380px] whitespace-pre-line">
             {description}
           </p>
 
